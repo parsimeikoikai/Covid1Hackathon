@@ -1,0 +1,41 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+/*******************
+Global Styles
+*******************/
+@import url('../../../assets/scss/icons/font-awesome/css/font-awesome.min.css');
+@import url('../../../assets/scss/icons/simple-line-icons/css/simple-line-icons.css');
+@import url('../../../assets/scss/icons/weather-icons/css/weather-icons.min.css');
+@import url('../../../assets/scss/icons/iconmind/iconmind.css');
+@import url('../../../assets/scss/icons/themify-icons/themify-icons.css');
+@import url('../../../assets/scss/icons/flag-icon-css/flag-icon.min.css');
+@import url('../../../assets/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css');
+
+@font-face {
+    font-family: 'Glyphicons Halflings' !important;
+    src: url('../../../assets/front/fonts/glyphicons-halflings-regular.eot') !important;
+}
+
+body {
+    padding-top: 54px;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+#auth_button
+{
+    background: #0f937c !important;
+    color: white !important;
+    border-radius: 0 !important;
+}
+
