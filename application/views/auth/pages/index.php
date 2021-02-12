@@ -8,6 +8,8 @@
 	{
 		border-style: ridge;
 	}
+	a.navList{text-decoration: none; color: gray;}
+	a.activePage{ color: green;!important; border-bottom: solid; border-width: 3px;}
 
 </style>
 <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
@@ -36,45 +38,36 @@
 				</div>
 
 			</div>
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="<?php echo base_url('') ?>"><span class="text-warning">AID TRACKER</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="#">EXPENDITURE</a>
+				</li>
 
-			<div class="navbar-collapse">
-				<ul class="navbar-nav mr-auto">
-					<!-- This is  -->
-					<li class="nav-item"><a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark"
-											href="javascript:void(0)"><i class="sl-icon-menu"></i></a></li>
-					<li class="nav-item"><a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark"
-											href="javascript:void(0)"><i class="sl-icon-menu"></i></a></li>
-				</ul>
-				<ul class="navbar-nav my-lg-0">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown"
-						   aria-haspopup="true" aria-expanded="false"> <i class="icon-Bell"></i>
-							<div class="notify"><span class="heartbit"></span> <span class="point"></span></div>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right mailbox animated bounceInDown" style="height: 170px !important;">
-							<ul>
-								<li>
-									<div class="drop-title">Notification (s)</div>
-								</li>
-								<li>
-									<div class="message-center" style="padding: 20px  !important;">
-
-									</div>
-								</li>
-							</ul>
-						</div>
-					</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">COVID-19 CASES </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">USEFUL LINKS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">ANALYSIS</a>
+				</li>
+			</ul>
 
 
-				</ul>
-			</div>
+
 		</nav>
 	</header>
 	<div class="row">
 		<div class="col-md-12">
 			<div class="alert alert-danger">
 
-			<hr/>
+			<div class="text-center">
+				<h3><b>TOTAL AID: 194,663,072,350</b></h3>
+			</div>
 
 			</div>
 		</div>
